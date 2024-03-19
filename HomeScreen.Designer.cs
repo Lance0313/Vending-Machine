@@ -72,7 +72,7 @@
             this.StartScreenConsultButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.StartScreenConsultButton.FlatAppearance.BorderSize = 0;
             this.StartScreenConsultButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.StartScreenConsultButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StartScreenConsultButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartScreenConsultButton.ForeColor = System.Drawing.Color.Black;
             this.StartScreenConsultButton.Location = new System.Drawing.Point(571, 345);
             this.StartScreenConsultButton.Name = "StartScreenConsultButton";
@@ -84,6 +84,7 @@
             this.StartScreenConsultButton.Text = "Consult first";
             this.StartScreenConsultButton.TextColor = System.Drawing.Color.Black;
             this.StartScreenConsultButton.UseVisualStyleBackColor = false;
+            this.StartScreenConsultButton.Click += new System.EventHandler(this.StartScreenConsultButton_Click);
             // 
             // StartScreenFooter
             // 
