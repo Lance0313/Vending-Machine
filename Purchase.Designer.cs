@@ -292,7 +292,7 @@
             // PurchaseAddAdvil
             // 
             this.PurchaseAddAdvil.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddAdvil.Location = new System.Drawing.Point(571, 559);
+            this.PurchaseAddAdvil.Location = new System.Drawing.Point(571, 558);
             this.PurchaseAddAdvil.Name = "PurchaseAddAdvil";
             this.PurchaseAddAdvil.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -336,7 +336,7 @@
             // PurchaseMinusAdvil
             // 
             this.PurchaseMinusAdvil.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusAdvil.Location = new System.Drawing.Point(484, 559);
+            this.PurchaseMinusAdvil.Location = new System.Drawing.Point(484, 558);
             this.PurchaseMinusAdvil.Name = "PurchaseMinusAdvil";
             this.PurchaseMinusAdvil.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -381,14 +381,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.PurchaseAddAdvil);
             this.Controls.Add(this.PurchaseMinusCetirizine);
+            this.Controls.Add(this.PurchaseMinusAdvil);
             this.Controls.Add(this.PurchaseMinusNeozep);
             this.Controls.Add(this.PurchaseMinusDiatabs);
-            this.Controls.Add(this.PurchaseMinusAdvil);
             this.Controls.Add(this.PurchaseAddCetirizine);
             this.Controls.Add(this.PurchaseAddDiatabs);
             this.Controls.Add(this.PurchaseAddNeozep);
-            this.Controls.Add(this.PurchaseAddAdvil);
             this.Controls.Add(this.PurchaseAddBiogesic);
             this.Controls.Add(this.PurchaseMinusBiogesic);
             this.Controls.Add(this.PurchaseMinusMefenamic);
