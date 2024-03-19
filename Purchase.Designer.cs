@@ -86,6 +86,7 @@
             this.PurchasePanelBackground.Name = "PurchasePanelBackground";
             this.PurchasePanelBackground.Size = new System.Drawing.Size(358, 602);
             this.PurchasePanelBackground.TabIndex = 1;
+            this.PurchasePanelBackground.Paint += new System.Windows.Forms.PaintEventHandler(this.PurchasePanelBackground_Paint);
             // 
             // PurchaseResetButton
             // 

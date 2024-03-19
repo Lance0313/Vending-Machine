@@ -216,5 +216,10 @@ namespace AlphaPrototype
         {
             _StartScreen.ShowUserControl(new HomeScreen(_StartScreen));
         }
+
+        private void PurchasePanelBackground_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

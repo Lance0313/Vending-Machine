@@ -29,30 +29,17 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeScreen));
-            this.StartScreenBackground = new System.Windows.Forms.PictureBox();
             this.StartScreenPanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.StartScreenConsultButton = new ePOSOne.btnProduct.RoundButton();
             this.StartScreenFooter = new System.Windows.Forms.Label();
             this.StartScreenTitle = new System.Windows.Forms.Label();
             this.StartScreenPurchaseButton = new ePOSOne.btnProduct.RoundButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.StartScreenBackground)).BeginInit();
+            this.StartScreenBackground = new System.Windows.Forms.PictureBox();
             this.StartScreenPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.StartScreenBackground)).BeginInit();
             this.SuspendLayout();
-            // 
-            // StartScreenBackground
-            // 
-            this.StartScreenBackground.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.StartScreenBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.StartScreenBackground.Enabled = false;
-            this.StartScreenBackground.Image = ((System.Drawing.Image)(resources.GetObject("StartScreenBackground.Image")));
-            this.StartScreenBackground.Location = new System.Drawing.Point(0, -27);
-            this.StartScreenBackground.Name = "StartScreenBackground";
-            this.StartScreenBackground.Size = new System.Drawing.Size(1031, 670);
-            this.StartScreenBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.StartScreenBackground.TabIndex = 6;
-            this.StartScreenBackground.TabStop = false;
             // 
             // StartScreenPanel
             // 
@@ -67,6 +54,29 @@
             this.StartScreenPanel.Name = "StartScreenPanel";
             this.StartScreenPanel.Size = new System.Drawing.Size(1028, 600);
             this.StartScreenPanel.TabIndex = 1;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(230, 253);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(615, 25);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Streamlined Over-the-Counter Medicine Dispensing Innovation";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(428, 257);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 22);
+            this.label1.TabIndex = 11;
             // 
             // StartScreenConsultButton
             // 
@@ -111,7 +121,7 @@
             this.StartScreenTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
             this.StartScreenTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartScreenTitle.ForeColor = System.Drawing.Color.White;
-            this.StartScreenTitle.Location = new System.Drawing.Point(100, 66);
+            this.StartScreenTitle.Location = new System.Drawing.Point(100, 60);
             this.StartScreenTitle.Name = "StartScreenTitle";
             this.StartScreenTitle.Size = new System.Drawing.Size(821, 182);
             this.StartScreenTitle.TabIndex = 8;
@@ -141,28 +151,18 @@
             this.StartScreenPurchaseButton.UseVisualStyleBackColor = false;
             this.StartScreenPurchaseButton.Click += new System.EventHandler(this.StartScreenPurchaseButton_Click);
             // 
-            // label1
+            // StartScreenBackground
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(428, 257);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 22);
-            this.label1.TabIndex = 11;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(222, 259);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(615, 25);
-            this.label2.TabIndex = 12;
-            this.label2.Text = "Streamlined Over-the-Counter Medicine Dispensing Innovation";
+            this.StartScreenBackground.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.StartScreenBackground.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.StartScreenBackground.Enabled = false;
+            this.StartScreenBackground.Image = ((System.Drawing.Image)(resources.GetObject("StartScreenBackground.Image")));
+            this.StartScreenBackground.Location = new System.Drawing.Point(0, -27);
+            this.StartScreenBackground.Name = "StartScreenBackground";
+            this.StartScreenBackground.Size = new System.Drawing.Size(1031, 670);
+            this.StartScreenBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.StartScreenBackground.TabIndex = 6;
+            this.StartScreenBackground.TabStop = false;
             // 
             // HomeScreen
             // 
@@ -171,9 +171,9 @@
             this.Controls.Add(this.StartScreenPanel);
             this.Name = "HomeScreen";
             this.Size = new System.Drawing.Size(1028, 600);
-            ((System.ComponentModel.ISupportInitialize)(this.StartScreenBackground)).EndInit();
             this.StartScreenPanel.ResumeLayout(false);
             this.StartScreenPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.StartScreenBackground)).EndInit();
             this.ResumeLayout(false);
 
         }
