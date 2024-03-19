@@ -98,10 +98,10 @@
             this.PurchaseResetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PurchaseResetButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PurchaseResetButton.ForeColor = System.Drawing.Color.Black;
-            this.PurchaseResetButton.Location = new System.Drawing.Point(40, 485);
+            this.PurchaseResetButton.Location = new System.Drawing.Point(40, 519);
             this.PurchaseResetButton.Name = "PurchaseResetButton";
             this.PurchaseResetButton.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.PurchaseResetButton.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.PurchaseResetButton.OnHoverButtonColor = System.Drawing.Color.Gold;
             this.PurchaseResetButton.OnHoverTextColor = System.Drawing.Color.Black;
             this.PurchaseResetButton.Size = new System.Drawing.Size(259, 46);
             this.PurchaseResetButton.TabIndex = 4;
@@ -121,10 +121,10 @@
             this.PurchaseCheckoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PurchaseCheckoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PurchaseCheckoutButton.ForeColor = System.Drawing.Color.Black;
-            this.PurchaseCheckoutButton.Location = new System.Drawing.Point(40, 433);
+            this.PurchaseCheckoutButton.Location = new System.Drawing.Point(40, 467);
             this.PurchaseCheckoutButton.Name = "PurchaseCheckoutButton";
             this.PurchaseCheckoutButton.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.PurchaseCheckoutButton.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.PurchaseCheckoutButton.OnHoverButtonColor = System.Drawing.Color.Gold;
             this.PurchaseCheckoutButton.OnHoverTextColor = System.Drawing.Color.Black;
             this.PurchaseCheckoutButton.Size = new System.Drawing.Size(259, 46);
             this.PurchaseCheckoutButton.TabIndex = 3;
@@ -147,11 +147,11 @@
             this.PurchaseBackButton.Location = new System.Drawing.Point(12, 12);
             this.PurchaseBackButton.Name = "PurchaseBackButton";
             this.PurchaseBackButton.OnHoverBorderColor = System.Drawing.Color.Transparent;
-            this.PurchaseBackButton.OnHoverButtonColor = System.Drawing.Color.Yellow;
+            this.PurchaseBackButton.OnHoverButtonColor = System.Drawing.Color.Gold;
             this.PurchaseBackButton.OnHoverTextColor = System.Drawing.Color.Black;
             this.PurchaseBackButton.Size = new System.Drawing.Size(184, 46);
             this.PurchaseBackButton.TabIndex = 2;
-            this.PurchaseBackButton.Text = "Back";
+            this.PurchaseBackButton.Text = "BACK";
             this.PurchaseBackButton.TextColor = System.Drawing.Color.Black;
             this.PurchaseBackButton.UseVisualStyleBackColor = false;
             this.PurchaseBackButton.Click += new System.EventHandler(this.PurchaseBackButton_Click);
@@ -161,9 +161,9 @@
             this.PurchaseCartPanel.BackColor = System.Drawing.Color.White;
             this.PurchaseCartPanel.Controls.Add(this.PurchaseCartText);
             this.PurchaseCartPanel.Controls.Add(this.PurchaseCartLabel);
-            this.PurchaseCartPanel.Location = new System.Drawing.Point(40, 92);
+            this.PurchaseCartPanel.Location = new System.Drawing.Point(28, 92);
             this.PurchaseCartPanel.Name = "PurchaseCartPanel";
-            this.PurchaseCartPanel.Size = new System.Drawing.Size(259, 311);
+            this.PurchaseCartPanel.Size = new System.Drawing.Size(294, 355);
             this.PurchaseCartPanel.TabIndex = 1;
             // 
             // PurchaseCartText
@@ -171,7 +171,7 @@
             this.PurchaseCartText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PurchaseCartText.Location = new System.Drawing.Point(29, 53);
             this.PurchaseCartText.Name = "PurchaseCartText";
-            this.PurchaseCartText.Size = new System.Drawing.Size(200, 251);
+            this.PurchaseCartText.Size = new System.Drawing.Size(231, 284);
             this.PurchaseCartText.TabIndex = 5;
             // 
             // PurchaseCartLabel
@@ -179,7 +179,7 @@
             this.PurchaseCartLabel.AutoSize = true;
             this.PurchaseCartLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PurchaseCartLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
-            this.PurchaseCartLabel.Location = new System.Drawing.Point(95, 26);
+            this.PurchaseCartLabel.Location = new System.Drawing.Point(113, 17);
             this.PurchaseCartLabel.Name = "PurchaseCartLabel";
             this.PurchaseCartLabel.Size = new System.Drawing.Size(65, 24);
             this.PurchaseCartLabel.TabIndex = 1;
@@ -188,9 +188,9 @@
             // PurchaseAdvil
             // 
             this.PurchaseAdvil.Image = global::AlphaPrototype.Properties.Resources.Advil;
-            this.PurchaseAdvil.Location = new System.Drawing.Point(465, 419);
+            this.PurchaseAdvil.Location = new System.Drawing.Point(429, 242);
             this.PurchaseAdvil.Name = "PurchaseAdvil";
-            this.PurchaseAdvil.Size = new System.Drawing.Size(165, 134);
+            this.PurchaseAdvil.Size = new System.Drawing.Size(147, 125);
             this.PurchaseAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseAdvil.TabIndex = 8;
             this.PurchaseAdvil.TabStop = false;
@@ -198,9 +198,9 @@
             // PurchaseCetirizine
             // 
             this.PurchaseCetirizine.Image = global::AlphaPrototype.Properties.Resources.Cetirizine;
-            this.PurchaseCetirizine.Location = new System.Drawing.Point(746, 419);
+            this.PurchaseCetirizine.Location = new System.Drawing.Point(598, 242);
             this.PurchaseCetirizine.Name = "PurchaseCetirizine";
-            this.PurchaseCetirizine.Size = new System.Drawing.Size(165, 134);
+            this.PurchaseCetirizine.Size = new System.Drawing.Size(157, 125);
             this.PurchaseCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseCetirizine.TabIndex = 7;
             this.PurchaseCetirizine.TabStop = false;
@@ -208,9 +208,9 @@
             // PurchaseDiatabs
             // 
             this.PurchaseDiatabs.Image = global::AlphaPrototype.Properties.Resources.Diatabs;
-            this.PurchaseDiatabs.Location = new System.Drawing.Point(746, 217);
+            this.PurchaseDiatabs.Location = new System.Drawing.Point(677, 43);
             this.PurchaseDiatabs.Name = "PurchaseDiatabs";
-            this.PurchaseDiatabs.Size = new System.Drawing.Size(165, 134);
+            this.PurchaseDiatabs.Size = new System.Drawing.Size(157, 119);
             this.PurchaseDiatabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseDiatabs.TabIndex = 6;
             this.PurchaseDiatabs.TabStop = false;
@@ -218,9 +218,9 @@
             // PurchaseMefenamic
             // 
             this.PurchaseMefenamic.Image = global::AlphaPrototype.Properties.Resources.Mefenamic;
-            this.PurchaseMefenamic.Location = new System.Drawing.Point(465, 217);
+            this.PurchaseMefenamic.Location = new System.Drawing.Point(857, 43);
             this.PurchaseMefenamic.Name = "PurchaseMefenamic";
-            this.PurchaseMefenamic.Size = new System.Drawing.Size(165, 134);
+            this.PurchaseMefenamic.Size = new System.Drawing.Size(134, 119);
             this.PurchaseMefenamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseMefenamic.TabIndex = 5;
             this.PurchaseMefenamic.TabStop = false;
@@ -228,9 +228,9 @@
             // PurchaseNeozep
             // 
             this.PurchaseNeozep.Image = global::AlphaPrototype.Properties.Resources.Neozep;
-            this.PurchaseNeozep.Location = new System.Drawing.Point(746, 18);
+            this.PurchaseNeozep.Location = new System.Drawing.Point(524, 43);
             this.PurchaseNeozep.Name = "PurchaseNeozep";
-            this.PurchaseNeozep.Size = new System.Drawing.Size(165, 134);
+            this.PurchaseNeozep.Size = new System.Drawing.Size(147, 119);
             this.PurchaseNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseNeozep.TabIndex = 4;
             this.PurchaseNeozep.TabStop = false;
@@ -238,9 +238,9 @@
             // PurchaseBiogesic
             // 
             this.PurchaseBiogesic.Image = global::AlphaPrototype.Properties.Resources.Biogesic;
-            this.PurchaseBiogesic.Location = new System.Drawing.Point(465, 18);
+            this.PurchaseBiogesic.Location = new System.Drawing.Point(380, 43);
             this.PurchaseBiogesic.Name = "PurchaseBiogesic";
-            this.PurchaseBiogesic.Size = new System.Drawing.Size(165, 134);
+            this.PurchaseBiogesic.Size = new System.Drawing.Size(134, 119);
             this.PurchaseBiogesic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseBiogesic.TabIndex = 3;
             this.PurchaseBiogesic.TabStop = false;
@@ -248,7 +248,7 @@
             // PurchaseAddMefenamic
             // 
             this.PurchaseAddMefenamic.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddMefenamic.Location = new System.Drawing.Point(571, 357);
+            this.PurchaseAddMefenamic.Location = new System.Drawing.Point(919, 168);
             this.PurchaseAddMefenamic.Name = "PurchaseAddMefenamic";
             this.PurchaseAddMefenamic.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddMefenamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -259,7 +259,7 @@
             // PurchaseMinusMefenamic
             // 
             this.PurchaseMinusMefenamic.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusMefenamic.Location = new System.Drawing.Point(484, 357);
+            this.PurchaseMinusMefenamic.Location = new System.Drawing.Point(873, 168);
             this.PurchaseMinusMefenamic.Name = "PurchaseMinusMefenamic";
             this.PurchaseMinusMefenamic.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusMefenamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -270,7 +270,7 @@
             // PurchaseMinusBiogesic
             // 
             this.PurchaseMinusBiogesic.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusBiogesic.Location = new System.Drawing.Point(484, 158);
+            this.PurchaseMinusBiogesic.Location = new System.Drawing.Point(407, 168);
             this.PurchaseMinusBiogesic.Name = "PurchaseMinusBiogesic";
             this.PurchaseMinusBiogesic.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusBiogesic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -281,7 +281,7 @@
             // PurchaseAddBiogesic
             // 
             this.PurchaseAddBiogesic.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddBiogesic.Location = new System.Drawing.Point(560, 158);
+            this.PurchaseAddBiogesic.Location = new System.Drawing.Point(462, 168);
             this.PurchaseAddBiogesic.Name = "PurchaseAddBiogesic";
             this.PurchaseAddBiogesic.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddBiogesic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -292,7 +292,7 @@
             // PurchaseAddAdvil
             // 
             this.PurchaseAddAdvil.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddAdvil.Location = new System.Drawing.Point(571, 558);
+            this.PurchaseAddAdvil.Location = new System.Drawing.Point(515, 388);
             this.PurchaseAddAdvil.Name = "PurchaseAddAdvil";
             this.PurchaseAddAdvil.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -303,7 +303,7 @@
             // PurchaseAddNeozep
             // 
             this.PurchaseAddNeozep.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddNeozep.Location = new System.Drawing.Point(850, 158);
+            this.PurchaseAddNeozep.Location = new System.Drawing.Point(600, 168);
             this.PurchaseAddNeozep.Name = "PurchaseAddNeozep";
             this.PurchaseAddNeozep.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -314,7 +314,7 @@
             // PurchaseAddDiatabs
             // 
             this.PurchaseAddDiatabs.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddDiatabs.Location = new System.Drawing.Point(850, 357);
+            this.PurchaseAddDiatabs.Location = new System.Drawing.Point(773, 168);
             this.PurchaseAddDiatabs.Name = "PurchaseAddDiatabs";
             this.PurchaseAddDiatabs.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddDiatabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -325,7 +325,7 @@
             // PurchaseAddCetirizine
             // 
             this.PurchaseAddCetirizine.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddCetirizine.Location = new System.Drawing.Point(850, 559);
+            this.PurchaseAddCetirizine.Location = new System.Drawing.Point(696, 388);
             this.PurchaseAddCetirizine.Name = "PurchaseAddCetirizine";
             this.PurchaseAddCetirizine.Size = new System.Drawing.Size(41, 39);
             this.PurchaseAddCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -336,7 +336,7 @@
             // PurchaseMinusAdvil
             // 
             this.PurchaseMinusAdvil.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusAdvil.Location = new System.Drawing.Point(484, 558);
+            this.PurchaseMinusAdvil.Location = new System.Drawing.Point(456, 388);
             this.PurchaseMinusAdvil.Name = "PurchaseMinusAdvil";
             this.PurchaseMinusAdvil.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -347,7 +347,7 @@
             // PurchaseMinusDiatabs
             // 
             this.PurchaseMinusDiatabs.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusDiatabs.Location = new System.Drawing.Point(774, 357);
+            this.PurchaseMinusDiatabs.Location = new System.Drawing.Point(715, 168);
             this.PurchaseMinusDiatabs.Name = "PurchaseMinusDiatabs";
             this.PurchaseMinusDiatabs.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusDiatabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -358,7 +358,7 @@
             // PurchaseMinusNeozep
             // 
             this.PurchaseMinusNeozep.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusNeozep.Location = new System.Drawing.Point(774, 158);
+            this.PurchaseMinusNeozep.Location = new System.Drawing.Point(554, 168);
             this.PurchaseMinusNeozep.Name = "PurchaseMinusNeozep";
             this.PurchaseMinusNeozep.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -369,7 +369,7 @@
             // PurchaseMinusCetirizine
             // 
             this.PurchaseMinusCetirizine.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusCetirizine.Location = new System.Drawing.Point(783, 558);
+            this.PurchaseMinusCetirizine.Location = new System.Drawing.Point(631, 388);
             this.PurchaseMinusCetirizine.Name = "PurchaseMinusCetirizine";
             this.PurchaseMinusCetirizine.Size = new System.Drawing.Size(40, 39);
             this.PurchaseMinusCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

@@ -111,7 +111,7 @@
             this.StartScreenTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
             this.StartScreenTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartScreenTitle.ForeColor = System.Drawing.Color.White;
-            this.StartScreenTitle.Location = new System.Drawing.Point(97, 66);
+            this.StartScreenTitle.Location = new System.Drawing.Point(100, 66);
             this.StartScreenTitle.Name = "StartScreenTitle";
             this.StartScreenTitle.Size = new System.Drawing.Size(821, 182);
             this.StartScreenTitle.TabIndex = 8;
@@ -158,7 +158,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(219, 259);
+            this.label2.Location = new System.Drawing.Point(222, 259);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(615, 25);
             this.label2.TabIndex = 12;
