@@ -78,6 +78,24 @@
     <Compile Include="RoundButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CartSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CartSummary.Designer.cs">
+      <DependentUpon>CartSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BiogesicDesc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BiogesicDesc.Designer.cs">
+      <DependentUpon>BiogesicDesc.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BiogesicDesc.resx">
+      <DependentUpon>BiogesicDesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CartSummary.resx">
+      <DependentUpon>CartSummary.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="HomeScreen.resx">
       <DependentUpon>HomeScreen.cs</DependentUpon>
     </EmbeddedResource>

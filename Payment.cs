@@ -29,5 +29,10 @@ namespace AlphaPrototype
         {
             _StartScreen.ShowUserControl(new Purchase(_StartScreen));
         }
+
+        private void PaymentAmount_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

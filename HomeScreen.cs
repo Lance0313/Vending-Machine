@@ -27,5 +27,15 @@ namespace AlphaPrototype
         {
                 _StartScreen.ShowUserControl(new Purchase(_StartScreen));
         }
+
+        private void StartScreenConsultButton_Click(object sender, EventArgs e)
+        {
+            _StartScreen.ShowUserControl(new Purchase(_StartScreen));
+        }
+
+        private void StartScreenFooter_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
