@@ -125,55 +125,55 @@ namespace AlphaPrototype
                 return;
             }
             int totalPrice = CalculateTotalPrice();
-            _StartScreen.ShowUserControl(new Payment(_StartScreen, totalPrice));
+            //_StartScreen.ShowUserControl(new Payment(_StartScreen, totalPrice));
         }
 
         private void PurchaseAddBiogesic_Click(object sender, EventArgs e)
         {
             PurchaseBiogesicQuantity++;
             UpdateLabel("Biogesic", PurchaseBiogesicQuantity * BiogesicPrice);
-            PurchaseMinusBiogesic.Enabled = true;
+            //PurchaseMinusBiogesic.Enabled = true;
         }
         private void PurchaseMinusBiogesic_Click(object sender, EventArgs e)
         {
             PurchaseBiogesicQuantity--;
             UpdateLabel("Biogesic", PurchaseBiogesicQuantity * BiogesicPrice);
-            PurchaseMinusBiogesic.Enabled = PurchaseBiogesicQuantity > 0;
+            //PurchaseMinusBiogesic.Enabled = PurchaseBiogesicQuantity > 0;
         }
 
         private void PurchaseAddMefenamic_Click(object sender, EventArgs e)
         {
             PurchaseMefenamicQuantity++;
             UpdateLabel("Mefenamic Acid", PurchaseMefenamicQuantity * MefenamicPrice);
-            PurchaseMinusMefenamic.Enabled = true;
+            //PurchaseMinusMefenamic.Enabled = true;
         }
 
         private void PurchaseMinusMefenamic_Click(object sender, EventArgs e)
         {
             PurchaseMefenamicQuantity--;
             UpdateLabel("Mefenamic Acid", PurchaseMefenamicQuantity * MefenamicPrice);
-            PurchaseMinusMefenamic.Enabled = PurchaseMefenamicQuantity > 0;
+            //PurchaseMinusMefenamic.Enabled = PurchaseMefenamicQuantity > 0;
         }
 
         private void PurchaseAddAdvil_Click(object sender, EventArgs e)
         {
             PurchaseAdvilQuantity++;
             UpdateLabel("Advil", PurchaseAdvilQuantity * AdvilPrice);
-            PurchaseMinusAdvil.Enabled = true;
+            //PurchaseMinusAdvil.Enabled = true;
         }
 
         private void PurchaseMinusAdvil_Click(object sender, EventArgs e)
         {
             PurchaseAdvilQuantity--;
             UpdateLabel("Advil", PurchaseAdvilQuantity * AdvilPrice);
-            PurchaseMinusAdvil.Enabled = PurchaseAdvilQuantity > 0;
+            //PurchaseMinusAdvil.Enabled = PurchaseAdvilQuantity > 0;
         }
 
         private void PurchaseMinusCetirizine_Click(object sender, EventArgs e)
         {
             PurchaseCetirizineQuantity--;
             UpdateLabel("Cetirizine", PurchaseCetirizineQuantity * CetirizinePrice);
-            PurchaseMinusCetirizine.Enabled = PurchaseCetirizineQuantity > 0;
+            //PurchaseMinusCetirizine.Enabled = PurchaseCetirizineQuantity > 0;
 
         }
 
@@ -181,35 +181,35 @@ namespace AlphaPrototype
         {
             PurchaseCetirizineQuantity++;
             UpdateLabel("Cetirizine", PurchaseCetirizineQuantity * CetirizinePrice);
-            PurchaseMinusCetirizine.Enabled = true;
+            //PurchaseMinusCetirizine.Enabled = true;
         }
 
         private void PurchaseMinusDiatabs_Click(object sender, EventArgs e)
         {
             PurchaseDiatabsQuantity--;
             UpdateLabel("Diatabs", PurchaseDiatabsQuantity * DiatabsPrice);
-            PurchaseMinusDiatabs.Enabled = PurchaseDiatabsQuantity > 0;
+            //PurchaseMinusDiatabs.Enabled = PurchaseDiatabsQuantity > 0;
         }
 
         private void PurchaseAddDiatabs_Click(object sender, EventArgs e)
         {
             PurchaseDiatabsQuantity++;
             UpdateLabel("Diatabs", PurchaseDiatabsQuantity * DiatabsPrice);
-            PurchaseMinusDiatabs.Enabled = true;
+            //PurchaseMinusDiatabs.Enabled = true;
         }
 
         private void PurchaseAddNeozep_Click(object sender, EventArgs e)
         {
             PurchaseNeozepQuantity++;
             UpdateLabel("Neozep", PurchaseNeozepQuantity * NeozepPrice);
-            PurchaseMinusNeozep.Enabled = true;
+            //PurchaseMinusNeozep.Enabled = true;
         }
 
         private void PurchaseMinusNeozep_Click(object sender, EventArgs e)
         {
             PurchaseNeozepQuantity--;
             UpdateLabel("Neozep", PurchaseNeozepQuantity * NeozepPrice);
-            PurchaseMinusNeozep.Enabled = PurchaseNeozepQuantity > 0;
+            //PurchaseMinusNeozep.Enabled = PurchaseNeozepQuantity > 0;
         }
 
         private void PurchaseBackButton_Click(object sender, EventArgs e)
@@ -220,6 +220,16 @@ namespace AlphaPrototype
         private void PurchasePanelBackground_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void PurchaseBiogesic_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PurchaseAscorbic_Click(object sender, EventArgs e)
+        {
+            _StartScreen.ShowUserControl(new AscorbicDesc(_StartScreen));
         }
     }
 }

@@ -37,5 +37,10 @@ namespace AlphaPrototype
         {
 
         }
+
+        private void StartScreenBackground_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

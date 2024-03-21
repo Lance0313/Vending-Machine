@@ -61,7 +61,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(230, 253);
+            this.label2.Location = new System.Drawing.Point(203, 244);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(615, 25);
             this.label2.TabIndex = 12;
@@ -163,6 +163,7 @@
             this.StartScreenBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.StartScreenBackground.TabIndex = 6;
             this.StartScreenBackground.TabStop = false;
+            this.StartScreenBackground.Click += new System.EventHandler(this.StartScreenBackground_Click);
             // 
             // HomeScreen
             // 

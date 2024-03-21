@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Purchase));
             this.PurchasePanelBackground = new System.Windows.Forms.Panel();
             this.PurchaseResetButton = new ePOSOne.btnProduct.RoundButton();
             this.PurchaseCheckoutButton = new ePOSOne.btnProduct.RoundButton();
@@ -36,43 +37,37 @@
             this.PurchaseCartText = new System.Windows.Forms.Panel();
             this.PurchaseCartLabel = new System.Windows.Forms.Label();
             this.PurchaseAdvil = new System.Windows.Forms.PictureBox();
-            this.PurchaseCetirizine = new System.Windows.Forms.PictureBox();
+            this.PurchaseLagundi = new System.Windows.Forms.PictureBox();
             this.PurchaseDiatabs = new System.Windows.Forms.PictureBox();
-            this.PurchaseMefenamic = new System.Windows.Forms.PictureBox();
-            this.PurchaseNeozep = new System.Windows.Forms.PictureBox();
+            this.PurchaseKremilS = new System.Windows.Forms.PictureBox();
+            this.PurchaseCetirizine = new System.Windows.Forms.PictureBox();
+            this.PurchaseBonamine = new System.Windows.Forms.PictureBox();
+            this.PurchaseAscorbic = new System.Windows.Forms.PictureBox();
+            this.PurchaseBioflu = new System.Windows.Forms.PictureBox();
             this.PurchaseBiogesic = new System.Windows.Forms.PictureBox();
-            this.PurchaseAddMefenamic = new System.Windows.Forms.PictureBox();
-            this.PurchaseMinusMefenamic = new System.Windows.Forms.PictureBox();
-            this.PurchaseMinusBiogesic = new System.Windows.Forms.PictureBox();
-            this.PurchaseAddBiogesic = new System.Windows.Forms.PictureBox();
-            this.PurchaseAddAdvil = new System.Windows.Forms.PictureBox();
-            this.PurchaseAddNeozep = new System.Windows.Forms.PictureBox();
-            this.PurchaseAddDiatabs = new System.Windows.Forms.PictureBox();
-            this.PurchaseAddCetirizine = new System.Windows.Forms.PictureBox();
-            this.PurchaseMinusAdvil = new System.Windows.Forms.PictureBox();
-            this.PurchaseMinusDiatabs = new System.Windows.Forms.PictureBox();
-            this.PurchaseMinusNeozep = new System.Windows.Forms.PictureBox();
-            this.PurchaseMinusCetirizine = new System.Windows.Forms.PictureBox();
+            this.PurchaseNeozep = new System.Windows.Forms.PictureBox();
+            this.Desc1 = new System.Windows.Forms.Label();
+            this.Desc2 = new System.Windows.Forms.Label();
+            this.Desc3 = new System.Windows.Forms.Label();
+            this.Desc4 = new System.Windows.Forms.Label();
+            this.Desc5 = new System.Windows.Forms.Label();
+            this.Desc6 = new System.Windows.Forms.Label();
+            this.Desc7 = new System.Windows.Forms.Label();
+            this.Desc8 = new System.Windows.Forms.Label();
+            this.Desc9 = new System.Windows.Forms.Label();
+            this.Desc10 = new System.Windows.Forms.Label();
             this.PurchasePanelBackground.SuspendLayout();
             this.PurchaseCartPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseAdvil)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseCetirizine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseLagundi)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseDiatabs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMefenamic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseNeozep)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseKremilS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseCetirizine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseBonamine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAscorbic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseBioflu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseBiogesic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddMefenamic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusMefenamic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusBiogesic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddBiogesic)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddAdvil)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddNeozep)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddDiatabs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddCetirizine)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusAdvil)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusDiatabs)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusNeozep)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusCetirizine)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseNeozep)).BeginInit();
             this.SuspendLayout();
             // 
             // PurchasePanelBackground
@@ -179,7 +174,7 @@
             // 
             this.PurchaseCartLabel.AutoSize = true;
             this.PurchaseCartLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PurchaseCartLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(84)))), ((int)(((byte)(134)))));
+            this.PurchaseCartLabel.ForeColor = System.Drawing.Color.Black;
             this.PurchaseCartLabel.Location = new System.Drawing.Point(113, 17);
             this.PurchaseCartLabel.Name = "PurchaseCartLabel";
             this.PurchaseCartLabel.Size = new System.Drawing.Size(65, 24);
@@ -188,218 +183,240 @@
             // 
             // PurchaseAdvil
             // 
-            this.PurchaseAdvil.Image = global::AlphaPrototype.Properties.Resources.Advil;
-            this.PurchaseAdvil.Location = new System.Drawing.Point(429, 242);
+            this.PurchaseAdvil.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseAdvil.Image")));
+            this.PurchaseAdvil.Location = new System.Drawing.Point(686, 232);
             this.PurchaseAdvil.Name = "PurchaseAdvil";
-            this.PurchaseAdvil.Size = new System.Drawing.Size(147, 125);
+            this.PurchaseAdvil.Size = new System.Drawing.Size(147, 119);
             this.PurchaseAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseAdvil.TabIndex = 8;
             this.PurchaseAdvil.TabStop = false;
             // 
-            // PurchaseCetirizine
+            // PurchaseLagundi
             // 
-            this.PurchaseCetirizine.Image = global::AlphaPrototype.Properties.Resources.Cetirizine;
-            this.PurchaseCetirizine.Location = new System.Drawing.Point(598, 242);
-            this.PurchaseCetirizine.Name = "PurchaseCetirizine";
-            this.PurchaseCetirizine.Size = new System.Drawing.Size(157, 125);
-            this.PurchaseCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseCetirizine.TabIndex = 7;
-            this.PurchaseCetirizine.TabStop = false;
+            this.PurchaseLagundi.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseLagundi.Image")));
+            this.PurchaseLagundi.Location = new System.Drawing.Point(416, 417);
+            this.PurchaseLagundi.Name = "PurchaseLagundi";
+            this.PurchaseLagundi.Size = new System.Drawing.Size(157, 125);
+            this.PurchaseLagundi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseLagundi.TabIndex = 7;
+            this.PurchaseLagundi.TabStop = false;
             // 
             // PurchaseDiatabs
             // 
-            this.PurchaseDiatabs.Image = global::AlphaPrototype.Properties.Resources.Diatabs;
-            this.PurchaseDiatabs.Location = new System.Drawing.Point(677, 43);
+            this.PurchaseDiatabs.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseDiatabs.Image")));
+            this.PurchaseDiatabs.Location = new System.Drawing.Point(617, 417);
             this.PurchaseDiatabs.Name = "PurchaseDiatabs";
-            this.PurchaseDiatabs.Size = new System.Drawing.Size(157, 119);
+            this.PurchaseDiatabs.Size = new System.Drawing.Size(157, 125);
             this.PurchaseDiatabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PurchaseDiatabs.TabIndex = 6;
             this.PurchaseDiatabs.TabStop = false;
             // 
-            // PurchaseMefenamic
+            // PurchaseKremilS
             // 
-            this.PurchaseMefenamic.Image = global::AlphaPrototype.Properties.Resources.Mefenamic;
-            this.PurchaseMefenamic.Location = new System.Drawing.Point(857, 43);
-            this.PurchaseMefenamic.Name = "PurchaseMefenamic";
-            this.PurchaseMefenamic.Size = new System.Drawing.Size(134, 119);
-            this.PurchaseMefenamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMefenamic.TabIndex = 5;
-            this.PurchaseMefenamic.TabStop = false;
+            this.PurchaseKremilS.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseKremilS.Image")));
+            this.PurchaseKremilS.Location = new System.Drawing.Point(845, 232);
+            this.PurchaseKremilS.Name = "PurchaseKremilS";
+            this.PurchaseKremilS.Size = new System.Drawing.Size(134, 119);
+            this.PurchaseKremilS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseKremilS.TabIndex = 5;
+            this.PurchaseKremilS.TabStop = false;
             // 
-            // PurchaseNeozep
+            // PurchaseCetirizine
             // 
-            this.PurchaseNeozep.Image = global::AlphaPrototype.Properties.Resources.Neozep;
-            this.PurchaseNeozep.Location = new System.Drawing.Point(524, 43);
-            this.PurchaseNeozep.Name = "PurchaseNeozep";
-            this.PurchaseNeozep.Size = new System.Drawing.Size(147, 119);
-            this.PurchaseNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseNeozep.TabIndex = 4;
-            this.PurchaseNeozep.TabStop = false;
+            this.PurchaseCetirizine.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseCetirizine.Image")));
+            this.PurchaseCetirizine.Location = new System.Drawing.Point(526, 232);
+            this.PurchaseCetirizine.Name = "PurchaseCetirizine";
+            this.PurchaseCetirizine.Size = new System.Drawing.Size(147, 119);
+            this.PurchaseCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseCetirizine.TabIndex = 4;
+            this.PurchaseCetirizine.TabStop = false;
+            // 
+            // PurchaseBonamine
+            // 
+            this.PurchaseBonamine.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseBonamine.Image")));
+            this.PurchaseBonamine.Location = new System.Drawing.Point(374, 232);
+            this.PurchaseBonamine.Name = "PurchaseBonamine";
+            this.PurchaseBonamine.Size = new System.Drawing.Size(134, 119);
+            this.PurchaseBonamine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseBonamine.TabIndex = 3;
+            this.PurchaseBonamine.TabStop = false;
+            this.PurchaseBonamine.Click += new System.EventHandler(this.PurchaseBiogesic_Click);
+            // 
+            // PurchaseAscorbic
+            // 
+            this.PurchaseAscorbic.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseAscorbic.Image")));
+            this.PurchaseAscorbic.Location = new System.Drawing.Point(439, 39);
+            this.PurchaseAscorbic.Name = "PurchaseAscorbic";
+            this.PurchaseAscorbic.Size = new System.Drawing.Size(134, 119);
+            this.PurchaseAscorbic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseAscorbic.TabIndex = 9;
+            this.PurchaseAscorbic.TabStop = false;
+            this.PurchaseAscorbic.Click += new System.EventHandler(this.PurchaseAscorbic_Click);
+            // 
+            // PurchaseBioflu
+            // 
+            this.PurchaseBioflu.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseBioflu.Image")));
+            this.PurchaseBioflu.Location = new System.Drawing.Point(617, 39);
+            this.PurchaseBioflu.Name = "PurchaseBioflu";
+            this.PurchaseBioflu.Size = new System.Drawing.Size(134, 119);
+            this.PurchaseBioflu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseBioflu.TabIndex = 10;
+            this.PurchaseBioflu.TabStop = false;
             // 
             // PurchaseBiogesic
             // 
-            this.PurchaseBiogesic.Image = global::AlphaPrototype.Properties.Resources.Biogesic;
-            this.PurchaseBiogesic.Location = new System.Drawing.Point(380, 43);
+            this.PurchaseBiogesic.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseBiogesic.Image")));
+            this.PurchaseBiogesic.Location = new System.Drawing.Point(800, 39);
             this.PurchaseBiogesic.Name = "PurchaseBiogesic";
             this.PurchaseBiogesic.Size = new System.Drawing.Size(134, 119);
             this.PurchaseBiogesic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseBiogesic.TabIndex = 3;
+            this.PurchaseBiogesic.TabIndex = 11;
             this.PurchaseBiogesic.TabStop = false;
             // 
-            // PurchaseAddMefenamic
+            // PurchaseNeozep
             // 
-            this.PurchaseAddMefenamic.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddMefenamic.Location = new System.Drawing.Point(919, 168);
-            this.PurchaseAddMefenamic.Name = "PurchaseAddMefenamic";
-            this.PurchaseAddMefenamic.Size = new System.Drawing.Size(41, 39);
-            this.PurchaseAddMefenamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseAddMefenamic.TabIndex = 10;
-            this.PurchaseAddMefenamic.TabStop = false;
-            this.PurchaseAddMefenamic.Click += new System.EventHandler(this.PurchaseAddMefenamic_Click);
+            this.PurchaseNeozep.Image = ((System.Drawing.Image)(resources.GetObject("PurchaseNeozep.Image")));
+            this.PurchaseNeozep.Location = new System.Drawing.Point(800, 417);
+            this.PurchaseNeozep.Name = "PurchaseNeozep";
+            this.PurchaseNeozep.Size = new System.Drawing.Size(157, 125);
+            this.PurchaseNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PurchaseNeozep.TabIndex = 12;
+            this.PurchaseNeozep.TabStop = false;
             // 
-            // PurchaseMinusMefenamic
+            // Desc1
             // 
-            this.PurchaseMinusMefenamic.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusMefenamic.Location = new System.Drawing.Point(873, 168);
-            this.PurchaseMinusMefenamic.Name = "PurchaseMinusMefenamic";
-            this.PurchaseMinusMefenamic.Size = new System.Drawing.Size(40, 39);
-            this.PurchaseMinusMefenamic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMinusMefenamic.TabIndex = 13;
-            this.PurchaseMinusMefenamic.TabStop = false;
-            this.PurchaseMinusMefenamic.Click += new System.EventHandler(this.PurchaseMinusMefenamic_Click);
+            this.Desc1.AutoSize = true;
+            this.Desc1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc1.ForeColor = System.Drawing.Color.Black;
+            this.Desc1.Location = new System.Drawing.Point(466, 161);
+            this.Desc1.Name = "Desc1";
+            this.Desc1.Size = new System.Drawing.Size(72, 26);
+            this.Desc1.TabIndex = 6;
+            this.Desc1.Text = "     Fern - C\r\nPrice: \r\n";
             // 
-            // PurchaseMinusBiogesic
+            // Desc2
             // 
-            this.PurchaseMinusBiogesic.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusBiogesic.Location = new System.Drawing.Point(407, 168);
-            this.PurchaseMinusBiogesic.Name = "PurchaseMinusBiogesic";
-            this.PurchaseMinusBiogesic.Size = new System.Drawing.Size(40, 39);
-            this.PurchaseMinusBiogesic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMinusBiogesic.TabIndex = 15;
-            this.PurchaseMinusBiogesic.TabStop = false;
-            this.PurchaseMinusBiogesic.Click += new System.EventHandler(this.PurchaseMinusBiogesic_Click);
+            this.Desc2.AutoSize = true;
+            this.Desc2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc2.ForeColor = System.Drawing.Color.Black;
+            this.Desc2.Location = new System.Drawing.Point(648, 161);
+            this.Desc2.Name = "Desc2";
+            this.Desc2.Size = new System.Drawing.Size(59, 26);
+            this.Desc2.TabIndex = 13;
+            this.Desc2.Text = "     Bioflu\r\nPrice: \r\n";
             // 
-            // PurchaseAddBiogesic
+            // Desc3
             // 
-            this.PurchaseAddBiogesic.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddBiogesic.Location = new System.Drawing.Point(462, 168);
-            this.PurchaseAddBiogesic.Name = "PurchaseAddBiogesic";
-            this.PurchaseAddBiogesic.Size = new System.Drawing.Size(41, 39);
-            this.PurchaseAddBiogesic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseAddBiogesic.TabIndex = 16;
-            this.PurchaseAddBiogesic.TabStop = false;
-            this.PurchaseAddBiogesic.Click += new System.EventHandler(this.PurchaseAddBiogesic_Click);
+            this.Desc3.AutoSize = true;
+            this.Desc3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc3.ForeColor = System.Drawing.Color.Black;
+            this.Desc3.Location = new System.Drawing.Point(830, 161);
+            this.Desc3.Name = "Desc3";
+            this.Desc3.Size = new System.Drawing.Size(75, 26);
+            this.Desc3.TabIndex = 14;
+            this.Desc3.Text = "     Biogesic\r\nPrice: \r\n";
             // 
-            // PurchaseAddAdvil
+            // Desc4
             // 
-            this.PurchaseAddAdvil.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddAdvil.Location = new System.Drawing.Point(515, 388);
-            this.PurchaseAddAdvil.Name = "PurchaseAddAdvil";
-            this.PurchaseAddAdvil.Size = new System.Drawing.Size(41, 39);
-            this.PurchaseAddAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseAddAdvil.TabIndex = 17;
-            this.PurchaseAddAdvil.TabStop = false;
-            this.PurchaseAddAdvil.Click += new System.EventHandler(this.PurchaseAddAdvil_Click);
+            this.Desc4.AutoSize = true;
+            this.Desc4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc4.ForeColor = System.Drawing.Color.Black;
+            this.Desc4.Location = new System.Drawing.Point(401, 354);
+            this.Desc4.Name = "Desc4";
+            this.Desc4.Size = new System.Drawing.Size(82, 26);
+            this.Desc4.TabIndex = 15;
+            this.Desc4.Text = "     Bonamine\r\nPrice: \r\n";
             // 
-            // PurchaseAddNeozep
+            // Desc5
             // 
-            this.PurchaseAddNeozep.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddNeozep.Location = new System.Drawing.Point(600, 168);
-            this.PurchaseAddNeozep.Name = "PurchaseAddNeozep";
-            this.PurchaseAddNeozep.Size = new System.Drawing.Size(41, 39);
-            this.PurchaseAddNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseAddNeozep.TabIndex = 18;
-            this.PurchaseAddNeozep.TabStop = false;
-            this.PurchaseAddNeozep.Click += new System.EventHandler(this.PurchaseAddNeozep_Click);
+            this.Desc5.AutoSize = true;
+            this.Desc5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc5.ForeColor = System.Drawing.Color.Black;
+            this.Desc5.Location = new System.Drawing.Point(547, 354);
+            this.Desc5.Name = "Desc5";
+            this.Desc5.Size = new System.Drawing.Size(103, 26);
+            this.Desc5.TabIndex = 16;
+            this.Desc5.Text = "     Benadryl One\r\nPrice: \r\n";
             // 
-            // PurchaseAddDiatabs
+            // Desc6
             // 
-            this.PurchaseAddDiatabs.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddDiatabs.Location = new System.Drawing.Point(773, 168);
-            this.PurchaseAddDiatabs.Name = "PurchaseAddDiatabs";
-            this.PurchaseAddDiatabs.Size = new System.Drawing.Size(41, 39);
-            this.PurchaseAddDiatabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseAddDiatabs.TabIndex = 19;
-            this.PurchaseAddDiatabs.TabStop = false;
-            this.PurchaseAddDiatabs.Click += new System.EventHandler(this.PurchaseAddDiatabs_Click);
+            this.Desc6.AutoSize = true;
+            this.Desc6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc6.ForeColor = System.Drawing.Color.Black;
+            this.Desc6.Location = new System.Drawing.Point(698, 354);
+            this.Desc6.Name = "Desc6";
+            this.Desc6.Size = new System.Drawing.Size(125, 26);
+            this.Desc6.TabIndex = 17;
+            this.Desc6.Text = "     Medicol Advance\r\nPrice: \r\n";
             // 
-            // PurchaseAddCetirizine
+            // Desc7
             // 
-            this.PurchaseAddCetirizine.Image = global::AlphaPrototype.Properties.Resources.Plus;
-            this.PurchaseAddCetirizine.Location = new System.Drawing.Point(696, 388);
-            this.PurchaseAddCetirizine.Name = "PurchaseAddCetirizine";
-            this.PurchaseAddCetirizine.Size = new System.Drawing.Size(41, 39);
-            this.PurchaseAddCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseAddCetirizine.TabIndex = 20;
-            this.PurchaseAddCetirizine.TabStop = false;
-            this.PurchaseAddCetirizine.Click += new System.EventHandler(this.PurchaseAddCetirizine_Click);
+            this.Desc7.AutoSize = true;
+            this.Desc7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc7.ForeColor = System.Drawing.Color.Black;
+            this.Desc7.Location = new System.Drawing.Point(851, 354);
+            this.Desc7.Name = "Desc7";
+            this.Desc7.Size = new System.Drawing.Size(127, 26);
+            this.Desc7.TabIndex = 18;
+            this.Desc7.Text = "     Kremil-S Advance\r\nPrice: \r\n";
             // 
-            // PurchaseMinusAdvil
+            // Desc8
             // 
-            this.PurchaseMinusAdvil.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusAdvil.Location = new System.Drawing.Point(456, 388);
-            this.PurchaseMinusAdvil.Name = "PurchaseMinusAdvil";
-            this.PurchaseMinusAdvil.Size = new System.Drawing.Size(40, 39);
-            this.PurchaseMinusAdvil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMinusAdvil.TabIndex = 21;
-            this.PurchaseMinusAdvil.TabStop = false;
-            this.PurchaseMinusAdvil.Click += new System.EventHandler(this.PurchaseMinusAdvil_Click);
+            this.Desc8.AutoSize = true;
+            this.Desc8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc8.ForeColor = System.Drawing.Color.Black;
+            this.Desc8.Location = new System.Drawing.Point(446, 545);
+            this.Desc8.Name = "Desc8";
+            this.Desc8.Size = new System.Drawing.Size(104, 26);
+            this.Desc8.TabIndex = 19;
+            this.Desc8.Text = "     ASCOF Forte \r\nPrice: \r\n";
             // 
-            // PurchaseMinusDiatabs
+            // Desc9
             // 
-            this.PurchaseMinusDiatabs.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusDiatabs.Location = new System.Drawing.Point(715, 168);
-            this.PurchaseMinusDiatabs.Name = "PurchaseMinusDiatabs";
-            this.PurchaseMinusDiatabs.Size = new System.Drawing.Size(40, 39);
-            this.PurchaseMinusDiatabs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMinusDiatabs.TabIndex = 22;
-            this.PurchaseMinusDiatabs.TabStop = false;
-            this.PurchaseMinusDiatabs.Click += new System.EventHandler(this.PurchaseMinusDiatabs_Click);
+            this.Desc9.AutoSize = true;
+            this.Desc9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc9.ForeColor = System.Drawing.Color.Black;
+            this.Desc9.Location = new System.Drawing.Point(665, 545);
+            this.Desc9.Name = "Desc9";
+            this.Desc9.Size = new System.Drawing.Size(70, 26);
+            this.Desc9.TabIndex = 20;
+            this.Desc9.Text = "     Imodum\r\nPrice: \r\n";
             // 
-            // PurchaseMinusNeozep
+            // Desc10
             // 
-            this.PurchaseMinusNeozep.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusNeozep.Location = new System.Drawing.Point(554, 168);
-            this.PurchaseMinusNeozep.Name = "PurchaseMinusNeozep";
-            this.PurchaseMinusNeozep.Size = new System.Drawing.Size(40, 39);
-            this.PurchaseMinusNeozep.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMinusNeozep.TabIndex = 23;
-            this.PurchaseMinusNeozep.TabStop = false;
-            this.PurchaseMinusNeozep.Click += new System.EventHandler(this.PurchaseMinusNeozep_Click);
-            // 
-            // PurchaseMinusCetirizine
-            // 
-            this.PurchaseMinusCetirizine.Image = global::AlphaPrototype.Properties.Resources.Minus;
-            this.PurchaseMinusCetirizine.Location = new System.Drawing.Point(631, 388);
-            this.PurchaseMinusCetirizine.Name = "PurchaseMinusCetirizine";
-            this.PurchaseMinusCetirizine.Size = new System.Drawing.Size(40, 39);
-            this.PurchaseMinusCetirizine.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PurchaseMinusCetirizine.TabIndex = 24;
-            this.PurchaseMinusCetirizine.TabStop = false;
-            this.PurchaseMinusCetirizine.Click += new System.EventHandler(this.PurchaseMinusCetirizine_Click);
+            this.Desc10.AutoSize = true;
+            this.Desc10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Desc10.ForeColor = System.Drawing.Color.Black;
+            this.Desc10.Location = new System.Drawing.Point(851, 545);
+            this.Desc10.Name = "Desc10";
+            this.Desc10.Size = new System.Drawing.Size(74, 26);
+            this.Desc10.TabIndex = 21;
+            this.Desc10.Text = "     Neozep \r\nPrice: \r\n";
             // 
             // Purchase
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.PurchaseAddAdvil);
-            this.Controls.Add(this.PurchaseMinusCetirizine);
-            this.Controls.Add(this.PurchaseMinusAdvil);
-            this.Controls.Add(this.PurchaseMinusNeozep);
-            this.Controls.Add(this.PurchaseMinusDiatabs);
-            this.Controls.Add(this.PurchaseAddCetirizine);
-            this.Controls.Add(this.PurchaseAddDiatabs);
-            this.Controls.Add(this.PurchaseAddNeozep);
-            this.Controls.Add(this.PurchaseAddBiogesic);
-            this.Controls.Add(this.PurchaseMinusBiogesic);
-            this.Controls.Add(this.PurchaseMinusMefenamic);
-            this.Controls.Add(this.PurchaseAddMefenamic);
-            this.Controls.Add(this.PurchaseAdvil);
-            this.Controls.Add(this.PurchaseCetirizine);
-            this.Controls.Add(this.PurchaseDiatabs);
-            this.Controls.Add(this.PurchaseMefenamic);
+            this.Controls.Add(this.Desc10);
+            this.Controls.Add(this.Desc9);
+            this.Controls.Add(this.Desc8);
+            this.Controls.Add(this.Desc7);
+            this.Controls.Add(this.Desc6);
+            this.Controls.Add(this.Desc5);
+            this.Controls.Add(this.Desc4);
+            this.Controls.Add(this.Desc3);
+            this.Controls.Add(this.Desc2);
+            this.Controls.Add(this.Desc1);
             this.Controls.Add(this.PurchaseNeozep);
             this.Controls.Add(this.PurchaseBiogesic);
+            this.Controls.Add(this.PurchaseBioflu);
+            this.Controls.Add(this.PurchaseAscorbic);
+            this.Controls.Add(this.PurchaseAdvil);
+            this.Controls.Add(this.PurchaseLagundi);
+            this.Controls.Add(this.PurchaseDiatabs);
+            this.Controls.Add(this.PurchaseKremilS);
+            this.Controls.Add(this.PurchaseCetirizine);
+            this.Controls.Add(this.PurchaseBonamine);
             this.Controls.Add(this.PurchasePanelBackground);
             this.Name = "Purchase";
             this.Size = new System.Drawing.Size(1028, 600);
@@ -407,24 +424,17 @@
             this.PurchaseCartPanel.ResumeLayout(false);
             this.PurchaseCartPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseAdvil)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseCetirizine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseLagundi)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseDiatabs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMefenamic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseNeozep)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseKremilS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseCetirizine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseBonamine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAscorbic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseBioflu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PurchaseBiogesic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddMefenamic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusMefenamic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusBiogesic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddBiogesic)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddAdvil)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddNeozep)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddDiatabs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseAddCetirizine)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusAdvil)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusDiatabs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusNeozep)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PurchaseMinusCetirizine)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PurchaseNeozep)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -436,24 +446,26 @@
         private ePOSOne.btnProduct.RoundButton PurchaseBackButton;
         private System.Windows.Forms.Panel PurchaseCartPanel;
         private System.Windows.Forms.Label PurchaseCartLabel;
+        private System.Windows.Forms.PictureBox PurchaseBonamine;
+        private System.Windows.Forms.PictureBox PurchaseCetirizine;
+        private System.Windows.Forms.PictureBox PurchaseKremilS;
+        private System.Windows.Forms.PictureBox PurchaseDiatabs;
+        private System.Windows.Forms.PictureBox PurchaseLagundi;
+        private System.Windows.Forms.PictureBox PurchaseAdvil;
+        private System.Windows.Forms.Panel PurchaseCartText;
+        private System.Windows.Forms.PictureBox PurchaseAscorbic;
+        private System.Windows.Forms.PictureBox PurchaseBioflu;
         private System.Windows.Forms.PictureBox PurchaseBiogesic;
         private System.Windows.Forms.PictureBox PurchaseNeozep;
-        private System.Windows.Forms.PictureBox PurchaseMefenamic;
-        private System.Windows.Forms.PictureBox PurchaseDiatabs;
-        private System.Windows.Forms.PictureBox PurchaseCetirizine;
-        private System.Windows.Forms.PictureBox PurchaseAdvil;
-        private System.Windows.Forms.PictureBox PurchaseAddMefenamic;
-        private System.Windows.Forms.PictureBox PurchaseMinusMefenamic;
-        private System.Windows.Forms.PictureBox PurchaseMinusBiogesic;
-        private System.Windows.Forms.PictureBox PurchaseAddBiogesic;
-        private System.Windows.Forms.PictureBox PurchaseAddAdvil;
-        private System.Windows.Forms.PictureBox PurchaseAddNeozep;
-        private System.Windows.Forms.PictureBox PurchaseAddDiatabs;
-        private System.Windows.Forms.PictureBox PurchaseAddCetirizine;
-        private System.Windows.Forms.PictureBox PurchaseMinusAdvil;
-        private System.Windows.Forms.PictureBox PurchaseMinusDiatabs;
-        private System.Windows.Forms.PictureBox PurchaseMinusNeozep;
-        private System.Windows.Forms.PictureBox PurchaseMinusCetirizine;
-        private System.Windows.Forms.Panel PurchaseCartText;
+        private System.Windows.Forms.Label Desc1;
+        private System.Windows.Forms.Label Desc2;
+        private System.Windows.Forms.Label Desc3;
+        private System.Windows.Forms.Label Desc4;
+        private System.Windows.Forms.Label Desc5;
+        private System.Windows.Forms.Label Desc6;
+        private System.Windows.Forms.Label Desc7;
+        private System.Windows.Forms.Label Desc8;
+        private System.Windows.Forms.Label Desc9;
+        private System.Windows.Forms.Label Desc10;
     }
 }
